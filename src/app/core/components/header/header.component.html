@@ -1,14 +1,14 @@
 <header>
   <img src="../../../../assets/logo.png" alt="Company's Logo" />
   <ul>
-    <li>Home</li>
-    <li>About</li>
+    <li><a routerLink="">Home</a></li>
+    <li><a routerLink="about">About</a></li>
     <li>
       <button type="button">
         <img
           src="../../../../assets/{{icon}}.png"
           alt="Toggle theme"
-          title="Toggle theme"
+          title="Toggle {{textTheme}} theme"
           (click)="toggleTheme()"
         />
       </button>

@@ -15,19 +15,33 @@
 }
 
 :root {
-  --primary: #1976D2;
+  --primary: #26619c;
   --body: #fff;
   --text-menu: #fff;
   --text-body: #4b4b4b;
+  --shadow-box: darkslategrey
 }
 
 :root .dark-theme {
-  --primary: #0D47A1;
-  --body: #4b4b4b;
+  --primary: #223241;
+  --body: #1b1b1b;
   --text-menu: #fff;
   --text-body: #fff;
+  --shadow-box: #f1eff0;
 }
 
 body {
   background: var(--body);
+}
+
+h1 {
+  font-weight: 700;
+  color: var(--text-body);
+  margin: 7px;
+}
+
+p {
+  font-weight: 400;
+  color: var(--text-body);
+  margin: 12px;
 }
