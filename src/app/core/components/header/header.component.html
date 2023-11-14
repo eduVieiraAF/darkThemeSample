@@ -1,1 +1,17 @@
-<p>header works!</p>
+<header>
+  <img src="../../../../assets/logo.png" alt="Company's Logo" />
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>
+      <button type="button">
+        <img
+          src="../../../../assets/{{icon}}.png"
+          alt="Toggle theme"
+          title="Toggle theme"
+          (click)="toggleTheme()"
+        />
+      </button>
+    </li>
+  </ul>
+</header>
